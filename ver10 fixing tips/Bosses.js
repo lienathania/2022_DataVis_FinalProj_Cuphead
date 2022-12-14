@@ -8,13 +8,13 @@ var margin = {top: 120, right: 30, bottom: 30, left: 60};
 var width =  window.innerWidth;
 var height = window.innerHeight;
 
-d3.csv("/Page2_data/page2_01_data.csv", d3.autoType)
+d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_01_data.csv", d3.autoType)
         .then(function (data01){
-            d3.csv("/Page2_data/page2_02_data.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_02_data.csv", d3.autoType)
             .then(function(data02){
-                d3.csv("/Page2_data/page2_03_data.csv", d3.autoType)
+                d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_03_data.csv", d3.autoType)
                 .then(function(data03){
-                    d3.csv("/Page2_data/page2_04_data.csv", d3.autoType)
+                    d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_04_data.csv", d3.autoType)
                     .then(function(data04){
                         width = window.innerWidth
                         height = window.innerHeight;
@@ -579,13 +579,13 @@ function drawBosses(data01temp,data02temp,data03temp,data04temp,BossesNames, wid
 
 function updateBosses(){
     console.log("update")
-    d3.csv("/Page2_data/page2_01_data.csv", d3.autoType)
+    d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_01_data.csv", d3.autoType)
     .then(function (data01){
-        d3.csv("/Page2_data/page2_02_data.csv", d3.autoType)
+        d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_02_data.csv", d3.autoType)
         .then(function(data02){
-            d3.csv("/Page2_data/page2_03_data.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_03_data.csv", d3.autoType)
             .then(function(data03){
-                d3.csv("/Page2_data/page2_04_data.csv", d3.autoType)
+                d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page2_data/page2_04_data.csv", d3.autoType)
                 .then(function(data04){
                     width = window.innerWidth
                     height = window.innerHeight;
