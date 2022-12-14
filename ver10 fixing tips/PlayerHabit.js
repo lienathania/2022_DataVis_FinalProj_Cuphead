@@ -4,9 +4,9 @@ var margin = {top: 120, right: 30, bottom: 30, left: 60};
 var width =  window.innerWidth;
 var height = window.innerHeight;
 
-d3.csv("/Page3_data/barchart.csv", d3.autoType)
+d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page3_data/barchart.csv", d3.autoType)
         .then(function (data01){
-            d3.csv("/Page3_data/linechart.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page3_data/Page3_data/linechart.csv", d3.autoType)
             .then(function(data02){
                 width =  window.innerWidth;
                 height = window.innerHeight;
@@ -215,9 +215,9 @@ function drawPlayerHabits(data01,data02,width,height,PlayerHabitSVG,updated=fals
 
 
 function updatePlayer(){
-            d3.csv("/Page3_data/barchart.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page3_data/Page3_data/barchart.csv", d3.autoType)
                 .then(function (data01){
-                    d3.csv("/Page3_data/linechart.csv", d3.autoType)
+                    d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page3_data/Page3_data/linechart.csv", d3.autoType)
                     .then(function(data02){
                         width =  window.innerWidth;
                         height = window.innerHeight;
