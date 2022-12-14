@@ -7,11 +7,11 @@ var width =  window.innerWidth;
 var height = window.innerHeight;
 
 
-d3.csv("/Page1_data/battle_count.csv", d3.autoType)
+d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page1_data/battle_count.csv", d3.autoType)
         .then(function (data){
-            d3.csv("/Page1_data/scatterplot_boss.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips//Page1_data/scatterplot_boss.csv", d3.autoType)
             .then(function(scatterplot){
-                d3.csv("/Page1_data/heatmap.csv", d3.autoType)
+                d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips//Page1_data/heatmap.csv", d3.autoType)
                 .then(function(heatmap){
                 width =  window.innerWidth;
                 height = window.innerHeight;
@@ -401,11 +401,11 @@ var myColorRed = d3.scaleLinear()
 }
 
 function updateOutline(){
-    d3.csv("/Page1_data/battle_count.csv", d3.autoType)
+    d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips//Page1_data/battle_count.csv", d3.autoType)
         .then(function (data){
-            d3.csv("/Page1_data/scatterplot_boss.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips//Page1_data/scatterplot_boss.csv", d3.autoType)
             .then(function(scatterplot){
-                d3.csv("/Page1_data/heatmap.csv", d3.autoType)
+                d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips//Page1_data/heatmap.csv", d3.autoType)
                 .then(function(heatmap){
                     width =  window.innerWidth;
                     height = window.innerHeight;
