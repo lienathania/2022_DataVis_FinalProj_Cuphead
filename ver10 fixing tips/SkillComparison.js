@@ -4,7 +4,7 @@ var margin = {top: 120, right: 30, bottom: 30, left: 60};
 var width =  window.innerWidth;
 var height = window.innerHeight;
 
-d3.csv("/Page4_data/data.csv", d3.autoType)
+d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page4_data/data.csv", d3.autoType)
         .then(function (data01){
                 width =  window.innerWidth;
                 height = window.innerHeight;
@@ -92,7 +92,7 @@ function drawSkill(data01,width,height,SkillComparisonSVG,updated=false){
 
 
         function update(){
-            d3.csv("/Page4_data/data.csv", d3.autoType)
+            d3.csv("https://github.com/lienathania/2022_DataVis_FinalProject/blob/main/ver10%20fixing%20tips/Page4_data/data.csv", d3.autoType)
                 .then(function (data01){
                         width =  window.innerWidth;
                         height = window.innerHeight;
